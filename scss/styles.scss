@@ -10,3 +10,23 @@
   opacity: 0.9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.header {
+  background: url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
